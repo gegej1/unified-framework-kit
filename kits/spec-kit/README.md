@@ -27,12 +27,13 @@ Its minimum job is to define the current feature's:
 
 - `canonical/` — Wave 1 exported explanatory docs for the layer role, flow, boundaries, and write-back handshake
 - `seed/` — Wave 2 exported downstream seed material for starter policy and template files
-- `methods/` — reserved for later method-only export; this wave creates the directory and placeholder only
+- `methods/` — Wave 3 exported method-only guidance for tool-aware feature-delivery sessions without exposing raw prompt scaffolds
 
 ## Start here
 
 - `canonical/README.md`
 - `seed/README.md`
+- `methods/README.md` if you want optional operator guidance after you already understand the canonical contract
 
 Use that canonical page to understand:
 
@@ -41,11 +42,16 @@ Use that canonical page to understand:
 - the boundary with project rules, `longrun`, and the execution bridge
 - how feature binding and evidence-aware write-back fit into the larger framework
 
-## Wave 2 note
+## Wave 3 note
 
-Wave 2 adds the downstream seed export.
+Wave 3 adds the first formal method-only export.
 
-It does **not** yet export:
+It now includes:
 
-- method-only payload
+- Codex-oriented quickstart guidance
+- productized command sheets for the core `spec-kit` authoring flow
+
+It still does **not** export:
+
 - hidden internal authoring layout or raw tool-specific scaffolds
+- runtime execution implementation

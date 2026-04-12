@@ -29,7 +29,7 @@ The following are intentionally non-authoritative:
 - kit-local README and checklist files
 - `kits/*/canonical/` explanatory pages
 - `kits/*/seed/` downstream seed surfaces for copy/adapt use
-- `kits/*/methods/` skeleton or future method-only surfaces
+- `kits/*/methods/` method-only surfaces, including productized operator guidance or public-safe helpers
 - architecture and guide pages that summarize upstream meaning
 - `export-manifest.yaml`
 

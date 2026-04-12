@@ -64,15 +64,15 @@
 - Batch 2 Wave 2 seed exports：
   - `kits/spec-kit/seed/`
   - `kits/project-memory/longrun/seed/`
-- 仍为目录骨架（仅占位，无正式 payload）：
+- Batch 2 Wave 3 method-only exports：
   - `kits/spec-kit/methods/`
   - `kits/project-memory/longrun/methods/`
 - 只读 public manifest snapshot：`export-manifest.yaml`
 - examples 占位入口：`examples/README.md`
 
-## Batch 2 Wave 2 说明
+## Batch 2 Wave 3 说明
 
-当前已完成到：Batch 2 Wave 2。
+当前已完成到：Batch 2 Wave 3。
 
 目前已经实现：
 
@@ -81,14 +81,16 @@
 - `longrun` canonical export
 - `spec-kit` seed export
 - `longrun` seed export
+- `spec-kit` 的首批 method-only export
+- `longrun` 的首批 method-only export
 - 根部 / reference / guide 的最小同步增强
 
 当前仍**不**实现：
 
-- method-only 正式 payload 导入
 - overlay 首发
 - 正式 examples
 - execution implementation 的公开复制
+- raw prompt scaffolds 或 raw `.codex/` / `.specify/` authoring layout
 
 ## 当前不包含
 
@@ -96,7 +98,6 @@
 - 正式 example projects
 - `.codex/skills/*` 实现
 - internal handoff / audit / research / mispatch 等内部材料
-- Batch 2 后半段的 method-only 正式导出
 - Batch 3 的完整迁移内容
 - 任何 runtime implementation 的公开复制
 

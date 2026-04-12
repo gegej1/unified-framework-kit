@@ -40,13 +40,15 @@ This public repo does not mirror:
 
 The internal authoring manifest remains upstream. The public `export-manifest.yaml` is a read-only snapshot that explains what Batch 1 exports; it is not the place to originate semantic changes.
 
-## Batch 2 Wave 2 sync note
+## Batch 2 Wave 3 sync note
 
-Batch 2 Wave 2 adds downstream seed exports on top of the public placement skeleton and canonical kit docs.
+Batch 2 Wave 3 adds the first public method-only exports on top of the placement skeleton, canonical docs, and seed exports.
 
-It does **not** yet export:
+It does **not** turn the public repo into an authoring source, and it still does **not** export:
 
-- formal method-only payload
+- raw prompt scaffolds
+- raw hidden-directory authoring layout
+- execution implementation
 
 Release-level manifest synchronization remains a downstream public step. The semantic authoring control plane stays upstream in `codeSPEC`.
 

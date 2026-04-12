@@ -64,15 +64,15 @@ If you are looking for formal examples, note that `examples/README.md` is still 
 - Batch 2 Wave 2 seed exports:
   - `kits/spec-kit/seed/`
   - `kits/project-memory/longrun/seed/`
-- Still skeleton-only directories with no formal payload yet:
+- Batch 2 Wave 3 method-only exports:
   - `kits/spec-kit/methods/`
   - `kits/project-memory/longrun/methods/`
 - A read-only public manifest snapshot: `export-manifest.yaml`
 - An examples placeholder entry point: `examples/README.md`
 
-## Batch 2 Wave 2 note
+## Batch 2 Wave 3 note
 
-The repository is now through Batch 2 Wave 2.
+The repository is now through Batch 2 Wave 3.
 
 It now includes:
 
@@ -81,14 +81,16 @@ It now includes:
 - `longrun` canonical export
 - `spec-kit` seed export
 - `longrun` seed export
+- the first `spec-kit` method-only export
+- the first `longrun` method-only export
 - minimal sync updates across root, reference, and guide docs
 
 It still does **not** implement:
 
-- the formal method-only payload export
 - the overlay launch
 - formal examples
 - any public copy of execution implementation
+- any raw prompt scaffolds or raw `.codex/` / `.specify/` authoring layout
 
 ## What is not included
 
@@ -96,7 +98,6 @@ It still does **not** implement:
 - Formal example projects
 - `.codex/skills/*` implementations
 - Internal handoff, audit, research, or mispatch materials
-- The later Batch 2 method-only export payload
 - Full Batch 3 migration content
 - Any public copy of the runtime implementation
 

@@ -17,12 +17,13 @@ This layer keeps project facts, long-term progress, and the durable project-memo
 
 - `canonical/` — Wave 1 exported explanatory docs for project memory role, schema contract, and write-back handshake
 - `seed/` — Wave 2 exported downstream seed material for checklist and workspace templates
-- `methods/` — reserved for later method-only export; this wave creates the directory and placeholder only
+- `methods/` — Wave 3 exported method-only guidance plus a small public-safe helper subset for working with `feature_list.json`
 
 ## Start here
 
 - `canonical/README.md`
 - `seed/README.md`
+- `methods/README.md` if you want optional working-method guidance after you understand the layer contract
 - `CHECKLIST.md` — compatibility shim kept at kit root while pointing to `seed/CHECKLIST.md`
 
 ## Durable status rule
@@ -36,11 +37,16 @@ Durable feature completion such as `passes: true` must stay traceable to accepta
 - session continuity and progress notes
 - evidence-backed write-back after completion
 
-## Wave 2 note
+## Wave 3 note
 
-Wave 2 adds the downstream seed export.
+Wave 3 adds the first formal method-only export.
 
-It does **not** yet export:
+It now includes:
 
-- the formal method-only payload
-- operational helper payload from the internal authoring environment
+- public working-method docs
+- a small public-safe helper subset for progress reporting and next-feature selection
+
+It still does **not** export:
+
+- longrun prompt scaffolds
+- environment-specific session/bootstrap helpers in their upstream form
