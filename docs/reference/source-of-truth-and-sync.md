@@ -40,6 +40,17 @@ This public repo does not mirror:
 
 The internal authoring manifest remains upstream. The public `export-manifest.yaml` is a read-only snapshot that explains what Batch 1 exports; it is not the place to originate semantic changes.
 
+## Batch 2 Wave 1 sync note
+
+Batch 2 Wave 1 adds public placement skeleton directories and canonical kit docs.
+
+It does **not** yet export:
+
+- formal seed payload
+- formal method-only payload
+
+Release-level manifest synchronization remains a downstream public step. The semantic authoring control plane stays upstream in `codeSPEC`.
+
 ## Practical sync rule
 
 When a change affects meaning rather than packaging:

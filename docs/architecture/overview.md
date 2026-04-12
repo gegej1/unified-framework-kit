@@ -43,6 +43,17 @@ This path matters because it prevents two common failures:
 
 This repository is a productized mirror of the architecture, not the authoring truth source. It should stay readable for external users while remaining semantically aligned with the upstream `codeSPEC` definitions.
 
+## Batch 2 Wave 1 packaging note
+
+In this wave, the public repo makes the kit structure explicit with:
+
+- `README.md`
+- `canonical/`
+- `seed/`
+- `methods/`
+
+Only the canonical kit surface is exported in this wave. The `seed/` and `methods/` directories are present as structure placeholders and do not yet carry their formal payload.
+
 ## Read next
 
 - `docs/reference/source-of-truth-and-sync.md`

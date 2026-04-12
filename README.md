@@ -51,15 +51,40 @@
 
 如果你正在寻找正式示例，请先注意：`examples/README.md` 目前仍只是首发占位说明，不是主合同。
 
-## Batch 1 当前包含
+## 当前公开结构
 
 - 根部公开壳层文档：`README.md`、`AGENTS.md`、`CONTRIBUTING.md`
 - 架构说明：`docs/architecture/`
 - 参考文档：`docs/reference/`
 - 采用指引：`docs/guides/`
-- kit 壳层：`kits/spec-kit/`、`kits/project-memory/longrun/`
+- kit 结构骨架：`kits/spec-kit/`、`kits/project-memory/longrun/`
+- Batch 2 Wave 1 canonical docs：
+  - `kits/spec-kit/canonical/`
+  - `kits/project-memory/longrun/canonical/`
+- Batch 2 Wave 1 目录骨架（仅占位，无 payload）：
+  - `kits/spec-kit/seed/`
+  - `kits/spec-kit/methods/`
+  - `kits/project-memory/longrun/seed/`
+  - `kits/project-memory/longrun/methods/`
 - 只读 public manifest snapshot：`export-manifest.yaml`
 - examples 占位入口：`examples/README.md`
+
+## Batch 2 Wave 1 说明
+
+当前这一步只实现：
+
+- public placement skeleton
+- `spec-kit` canonical export
+- `longrun` canonical export
+- 根部 / reference / guide 的最小同步增强
+
+当前这一步**不**实现：
+
+- seed 正式 payload 导入
+- method-only 正式 payload 导入
+- overlay 首发
+- 正式 examples
+- execution implementation 的公开复制
 
 ## 当前不包含
 
@@ -67,7 +92,8 @@
 - 正式 example projects
 - `.codex/skills/*` 实现
 - internal handoff / audit / research / mispatch 等内部材料
-- Batch 2 / Batch 3 的完整迁移内容
+- Batch 2 后半段的 seed / method-only 正式导出
+- Batch 3 的完整迁移内容
 - 任何 runtime implementation 的公开复制
 
 ## Contribution note

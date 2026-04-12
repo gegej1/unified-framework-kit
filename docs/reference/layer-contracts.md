@@ -47,3 +47,17 @@ This document summarizes the operating contracts between the Unified Framework l
 ## Public mirror note
 
 This repository documents these contracts for public adoption. It does not replace the upstream authoring truth for the contracts themselves.
+
+## Public kit packaging note
+
+In Batch 2 Wave 1, the public kit structure becomes explicit:
+
+- `canonical/` for explanatory layer contracts and adoption-facing kit docs
+- `seed/` for future reusable starter material
+- `methods/` for future method-only, tool-specific helper material
+
+For this wave:
+
+- `canonical/` is exported
+- `seed/` and `methods/` exist only as skeleton directories with placeholder README files
+- neither placeholder directory changes the authority model described above

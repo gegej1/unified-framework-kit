@@ -1,6 +1,11 @@
 # longrun Session Checklist
 
-This checklist is a public-facing seed for the Project Memory Layer. It is not the repo-governance authority of `unified-framework-kit`.
+This page is kept in Batch 2 Wave 1 as a **compatibility shim**.
+
+- It remains a public-facing checklist entry point for the Project Memory Layer.
+- It is **not** the repo-governance authority of `unified-framework-kit`.
+- It is **not** the future home of the formal seed set.
+- The real seed surface is planned to converge under `kits/project-memory/longrun/seed/` in a later wave.
 
 ## Start of session
 
@@ -29,3 +34,4 @@ This checklist is a public-facing seed for the Project Memory Layer. It is not t
 - Project Memory is not Feature Delivery
 - Project Memory is not runtime execution behavior
 - Durable completion still requires evidence-backed traceability
+- This shim should not grow into a new authority surface during the transition to the future `seed/` layout

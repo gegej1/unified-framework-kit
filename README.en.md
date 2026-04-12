@@ -51,15 +51,40 @@ The current minimum kernel remains:
 
 If you are looking for formal examples, note that `examples/README.md` is still a launch-phase placeholder and not a primary contract surface.
 
-## What Batch 1 includes
+## Current public structure
 
 - Root public-shell docs: `README.md`, `AGENTS.md`, `CONTRIBUTING.md`
 - Architecture docs: `docs/architecture/`
 - Reference docs: `docs/reference/`
 - Adoption guides: `docs/guides/`
-- Kit shells: `kits/spec-kit/`, `kits/project-memory/longrun/`
+- Kit structure skeletons: `kits/spec-kit/`, `kits/project-memory/longrun/`
+- Batch 2 Wave 1 canonical docs:
+  - `kits/spec-kit/canonical/`
+  - `kits/project-memory/longrun/canonical/`
+- Batch 2 Wave 1 skeleton-only directories with no payload yet:
+  - `kits/spec-kit/seed/`
+  - `kits/spec-kit/methods/`
+  - `kits/project-memory/longrun/seed/`
+  - `kits/project-memory/longrun/methods/`
 - A read-only public manifest snapshot: `export-manifest.yaml`
 - An examples placeholder entry point: `examples/README.md`
+
+## Batch 2 Wave 1 note
+
+This wave implements only:
+
+- the public placement skeleton
+- `spec-kit` canonical export
+- `longrun` canonical export
+- minimal sync updates across root, reference, and guide docs
+
+This wave does **not** implement:
+
+- the formal seed payload export
+- the formal method-only payload export
+- the overlay launch
+- formal examples
+- any public copy of execution implementation
 
 ## What is not included
 
@@ -67,7 +92,8 @@ If you are looking for formal examples, note that `examples/README.md` is still 
 - Formal example projects
 - `.codex/skills/*` implementations
 - Internal handoff, audit, research, or mispatch materials
-- Full Batch 2 / Batch 3 migration content
+- The later Batch 2 seed / method-only export payload
+- Full Batch 3 migration content
 - Any public copy of the runtime implementation
 
 ## Contribution note

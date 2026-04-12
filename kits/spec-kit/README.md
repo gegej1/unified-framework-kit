@@ -1,41 +1,51 @@
 # spec-kit
 
-`spec-kit` is the public shell for the Unified Framework's Feature Delivery Layer.
+`spec-kit` is the public kit surface for the Unified Framework's Feature Delivery Layer.
 
 ## Role
 
-The kit exists to turn a chosen feature into a delivery path such as:
+This kit turns a chosen feature into a delivery path such as:
 
 `spec.md -> plan.md -> tasks.md -> implementation`
 
-## What this kit owns
+Its minimum job is to define the current feature's:
 
-- current-feature scope
-- current-feature acceptance criteria
-- current-feature planning and task breakdown
+- scope
+- boundaries
+- plan
+- task breakdown
+- acceptance criteria
 
-## What this kit does not own
+## Boundary reminder
 
-- project-wide facts or long-term status
-- the runtime execution method
-- repo-wide governance in this public repository
+- `spec-kit` is Feature Delivery, not Project Memory
+- project-wide facts and durable status still belong to `longrun`
+- runtime execution behavior still belongs to `superpower`, represented publicly only through the execution bridge
+- root `AGENTS.md` remains the only repo-governance authority in this repository
 
-## Authority note
+## Structure
 
-- The current semantic truth for this layer remains upstream in `codeSPEC`
-- In this repository, root `AGENTS.md` is the only repo-governance authority
-- Kit-local files are downstream seed and explanatory surface only
+- `canonical/` — Wave 1 exported explanatory docs for the layer role, flow, boundaries, and write-back handshake
+- `seed/` — reserved for later seed export; this wave creates the directory and placeholder only
+- `methods/` — reserved for later method-only export; this wave creates the directory and placeholder only
 
-## Batch 1 scope
+## Start here
 
-Batch 1 intentionally exports a minimal public shell. It does not yet include the full hidden tooling payload of the internal authoring workspace.
+- `canonical/README.md`
 
-## Use with the rest of the framework
+Use that canonical page to understand:
 
-Use `spec-kit` with:
+- the Feature Delivery Layer role
+- the `spec -> plan -> tasks` main flow
+- the boundary with project rules, `longrun`, and the execution bridge
+- how feature binding and evidence-aware write-back fit into the larger framework
 
-- project-local rules
-- project memory from `longterm`
-- runtime execution behavior through the execution bridge
+## Wave 1 note
 
-Do not use it as a substitute for project memory or execution authority.
+Wave 1 exports the structure and canonical docs first.
+
+It does **not** yet export:
+
+- seed payload
+- method-only payload
+- hidden internal authoring layout or raw tool-specific scaffolds

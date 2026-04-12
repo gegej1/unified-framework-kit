@@ -50,6 +50,12 @@ This repository does **not**:
 - let documentation act as a new execution engine
 - let execution behavior override evidence requirements
 
+## Kit packaging note
+
+Wave 1 may expose `methods/` directories as part of the public kit structure, but those directories remain non-authoritative placeholders in this wave.
+
+They do not replace the execution bridge and do not change the rule that `superpower` appears on the public surface only through bridge documentation.
+
 ## Optional overlay note
 
 If a project later enables `AgentTeam`, it remains an optional overlay that may consume the execution bridge. It does not change the minimum-kernel authority split.

@@ -26,8 +26,10 @@ Start with the minimum kernel, keep a single authority per concern, and avoid im
 2. `docs/reference/authority-split.md`
 3. `docs/reference/layer-contracts.md`
 4. `kits/project-memory/longrun/README.md`
-5. `kits/spec-kit/README.md`
+5. `kits/project-memory/longrun/canonical/README.md`
+6. `kits/spec-kit/README.md`
+7. `kits/spec-kit/canonical/README.md`
 
-## Batch 1 note
+## Batch 2 Wave 1 note
 
-Batch 1 publishes the public shell and adoption guidance. It does not yet ship the full operational payload for every kit. Use this release to understand the structure and authority model first.
+This wave publishes the kit structure and canonical docs first. It does not yet ship the formal seed payload or method-only payload for each kit.
