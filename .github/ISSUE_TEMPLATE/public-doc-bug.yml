@@ -1,0 +1,41 @@
+name: Public doc bug
+description: Report a bug, ambiguity, or mismatch in the public documentation surface.
+title: "[Doc bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for problems in the public-facing docs or packaging of this curated mirror.
+
+        This repository is not the semantic truth source. If your report is really about upstream meaning rather than public wording or packaging, note that below.
+  - type: input
+    id: path
+    attributes:
+      label: Affected file or page
+      placeholder: e.g. README.md or docs/reference/source-of-truth-and-sync.md
+    validations:
+      required: true
+  - type: textarea
+    id: bug
+    attributes:
+      label: What is wrong?
+      placeholder: Describe the wording bug, ambiguity, broken link, or mismatch.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+      placeholder: Describe the expected public wording or behavior.
+    validations:
+      required: true
+  - type: dropdown
+    id: semantic
+    attributes:
+      label: Does this appear to affect upstream semantic meaning?
+      options:
+        - No, this looks public-shell-only
+        - Maybe, source-first review may be needed
+        - Yes, this likely needs upstream review first
+    validations:
+      required: true

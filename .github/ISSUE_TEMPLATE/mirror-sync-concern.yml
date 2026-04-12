@@ -1,0 +1,45 @@
+name: Mirror sync concern
+description: Flag a concern about source-first sync, authority wording, or mirror drift.
+title: "[Mirror sync] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template when you think the public mirror may have drifted, or when a change might blur the authority split.
+  - type: textarea
+    id: concern
+    attributes:
+      label: Sync or authority concern
+      placeholder: Describe the concern and why it may affect source-first or authority boundaries.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which area is involved?
+      options:
+        - Root messaging
+        - Reference docs
+        - Architecture docs
+        - Kit shell docs
+        - Manifest snapshot
+        - Other public packaging
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What evidence or comparison do you have?
+      placeholder: Link the file, page, commit, or wording that triggered the concern.
+    validations:
+      required: true
+  - type: dropdown
+    id: upstream
+    attributes:
+      label: Do you think `codeSPEC` review is needed first?
+      options:
+        - Yes
+        - No
+        - Not sure
+    validations:
+      required: true

@@ -1,0 +1,36 @@
+name: Question
+description: Ask a scoped question about the public repo surface.
+title: "[Question] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for scoped questions about the public mirror.
+
+        Questions do not create new authority. Root `AGENTS.md` remains the repo-governance authority, and upstream semantic meaning remains source-first.
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Which layer is your question about?
+      options:
+        - Project Rules
+        - Project Memory (`longterm`)
+        - Feature Delivery (`spec-kit` / `spec规范`)
+        - Execution Bridge (`superpower` bridge)
+        - Public packaging / docs
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      placeholder: Ask the question and include any relevant context.
+    validations:
+      required: true
+  - type: textarea
+    id: checked
+    attributes:
+      label: What have you checked already?
+      placeholder: Note any README, docs, or files you already reviewed.
+    validations:
+      required: false
