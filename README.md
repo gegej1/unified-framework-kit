@@ -83,7 +83,7 @@
 - `longrun` seed export
 - `spec-kit` 的首批 method-only export
 - `longrun` 的首批 method-only export
-- 根部 / reference / guide 的最小同步增强
+- 根部 / reference 的最小同步增强
 
 当前仍**不**实现：
 

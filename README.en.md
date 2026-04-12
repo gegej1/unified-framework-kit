@@ -83,7 +83,7 @@ It now includes:
 - `longrun` seed export
 - the first `spec-kit` method-only export
 - the first `longrun` method-only export
-- minimal sync updates across root, reference, and guide docs
+- minimal sync updates across root and reference docs
 
 It still does **not** implement:
 
