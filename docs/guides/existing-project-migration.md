@@ -27,13 +27,12 @@ Define the primary surface first, then migrate by reference, cleanup, and gradua
 
 This guide describes the migration strategy. It is not itself the semantic truth source for a live project. Real migrations must still respect the current source-first model.
 
-## Batch 2 Wave 1 note
+## Batch 2 Wave 2 note
 
-For this wave, use the public canonical kit docs to understand the stabilized boundaries first.
+For this wave, use the public canonical kit docs to understand the stabilized boundaries first, then use the seed exports as downstream copy/adapt starters.
 
 Do not assume that the public repo already contains:
 
-- the formal seed payload
 - the formal method-only payload
 
-Those remain later-wave exports even though the directory skeleton is now visible.
+Method-only payload remains a later-wave export even though the directory skeleton and seed exports are now visible.

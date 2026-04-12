@@ -27,9 +27,11 @@ Start with the minimum kernel, keep a single authority per concern, and avoid im
 3. `docs/reference/layer-contracts.md`
 4. `kits/project-memory/longrun/README.md`
 5. `kits/project-memory/longrun/canonical/README.md`
-6. `kits/spec-kit/README.md`
-7. `kits/spec-kit/canonical/README.md`
+6. `kits/project-memory/longrun/seed/README.md`
+7. `kits/spec-kit/README.md`
+8. `kits/spec-kit/canonical/README.md`
+9. `kits/spec-kit/seed/README.md`
 
-## Batch 2 Wave 1 note
+## Batch 2 Wave 2 note
 
-This wave publishes the kit structure and canonical docs first. It does not yet ship the formal seed payload or method-only payload for each kit.
+This wave publishes the downstream seed exports in addition to the structure skeleton and canonical docs. It still does not ship the formal method-only payload for each kit.

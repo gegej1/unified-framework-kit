@@ -1,11 +1,12 @@
 # longrun Session Checklist
 
-This page is kept in Batch 2 Wave 1 as a **compatibility shim**.
+This page is kept in Batch 2 as a **compatibility shim**.
 
 - It remains a public-facing checklist entry point for the Project Memory Layer.
 - It is **not** the repo-governance authority of `unified-framework-kit`.
 - It is **not** the future home of the formal seed set.
-- The real seed surface is planned to converge under `kits/project-memory/longrun/seed/` in a later wave.
+- The real seed surface now lives under `kits/project-memory/longrun/seed/`.
+- For downstream copy/adapt use, prefer `kits/project-memory/longrun/seed/CHECKLIST.md`.
 
 ## Start of session
 

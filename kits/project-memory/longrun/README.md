@@ -16,13 +16,14 @@ This layer keeps project facts, long-term progress, and the durable project-memo
 ## Structure
 
 - `canonical/` — Wave 1 exported explanatory docs for project memory role, schema contract, and write-back handshake
-- `seed/` — reserved for later seed export; this wave creates the directory and placeholder only
+- `seed/` — Wave 2 exported downstream seed material for checklist and workspace templates
 - `methods/` — reserved for later method-only export; this wave creates the directory and placeholder only
 
 ## Start here
 
 - `canonical/README.md`
-- `CHECKLIST.md` — compatibility shim kept at kit root during the transition to the future `seed/` layout
+- `seed/README.md`
+- `CHECKLIST.md` — compatibility shim kept at kit root while pointing to `seed/CHECKLIST.md`
 
 ## Durable status rule
 
@@ -35,12 +36,11 @@ Durable feature completion such as `passes: true` must stay traceable to accepta
 - session continuity and progress notes
 - evidence-backed write-back after completion
 
-## Wave 1 note
+## Wave 2 note
 
-Wave 1 exports the structure and canonical docs first.
+Wave 2 adds the downstream seed export.
 
 It does **not** yet export:
 
-- the formal seed payload
 - the formal method-only payload
 - operational helper payload from the internal authoring environment

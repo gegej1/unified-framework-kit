@@ -28,7 +28,7 @@ The following are intentionally non-authoritative:
 - `scripts/`
 - kit-local README and checklist files
 - `kits/*/canonical/` explanatory pages
-- `kits/*/seed/` skeleton or future seed surfaces
+- `kits/*/seed/` downstream seed surfaces for copy/adapt use
 - `kits/*/methods/` skeleton or future method-only surfaces
 - architecture and guide pages that summarize upstream meaning
 - `export-manifest.yaml`

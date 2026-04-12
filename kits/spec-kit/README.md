@@ -26,12 +26,13 @@ Its minimum job is to define the current feature's:
 ## Structure
 
 - `canonical/` — Wave 1 exported explanatory docs for the layer role, flow, boundaries, and write-back handshake
-- `seed/` — reserved for later seed export; this wave creates the directory and placeholder only
+- `seed/` — Wave 2 exported downstream seed material for starter policy and template files
 - `methods/` — reserved for later method-only export; this wave creates the directory and placeholder only
 
 ## Start here
 
 - `canonical/README.md`
+- `seed/README.md`
 
 Use that canonical page to understand:
 
@@ -40,12 +41,11 @@ Use that canonical page to understand:
 - the boundary with project rules, `longrun`, and the execution bridge
 - how feature binding and evidence-aware write-back fit into the larger framework
 
-## Wave 1 note
+## Wave 2 note
 
-Wave 1 exports the structure and canonical docs first.
+Wave 2 adds the downstream seed export.
 
 It does **not** yet export:
 
-- seed payload
 - method-only payload
 - hidden internal authoring layout or raw tool-specific scaffolds

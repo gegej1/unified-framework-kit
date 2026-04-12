@@ -61,26 +61,30 @@
 - Batch 2 Wave 1 canonical docs：
   - `kits/spec-kit/canonical/`
   - `kits/project-memory/longrun/canonical/`
-- Batch 2 Wave 1 目录骨架（仅占位，无 payload）：
+- Batch 2 Wave 2 seed exports：
   - `kits/spec-kit/seed/`
-  - `kits/spec-kit/methods/`
   - `kits/project-memory/longrun/seed/`
+- 仍为目录骨架（仅占位，无正式 payload）：
+  - `kits/spec-kit/methods/`
   - `kits/project-memory/longrun/methods/`
 - 只读 public manifest snapshot：`export-manifest.yaml`
 - examples 占位入口：`examples/README.md`
 
-## Batch 2 Wave 1 说明
+## Batch 2 Wave 2 说明
 
-当前这一步只实现：
+当前已完成到：Batch 2 Wave 2。
+
+目前已经实现：
 
 - public placement skeleton
 - `spec-kit` canonical export
 - `longrun` canonical export
+- `spec-kit` seed export
+- `longrun` seed export
 - 根部 / reference / guide 的最小同步增强
 
-当前这一步**不**实现：
+当前仍**不**实现：
 
-- seed 正式 payload 导入
 - method-only 正式 payload 导入
 - overlay 首发
 - 正式 examples
@@ -92,7 +96,7 @@
 - 正式 example projects
 - `.codex/skills/*` 实现
 - internal handoff / audit / research / mispatch 等内部材料
-- Batch 2 后半段的 seed / method-only 正式导出
+- Batch 2 后半段的 method-only 正式导出
 - Batch 3 的完整迁移内容
 - 任何 runtime implementation 的公开复制
 

@@ -1,19 +1,53 @@
 # spec-kit Seed
 
-This directory is reserved for the future `spec-kit` seed export.
+This directory contains the public `spec-kit` seed export for Batch 2 Wave 2.
 
-## Wave 1 status
+## Classification
 
-Wave 1 creates the public placement skeleton only.
+- downstream seed
+- copy/adapt
+- non-authoritative
 
-That means:
+## Authority reminder
 
-- this directory exists now
-- the formal seed payload does not ship in this wave
-- nothing here should be treated as authority by implication
+- In this public repository, root `AGENTS.md` remains the only repo-governance authority
+- Nothing in this directory is a governance authority for `unified-framework-kit`
+- These files are starting points for downstream repositories that adopt the Feature Delivery Layer
 
-## Intended role
+## Included in Wave 2
 
-When a later wave exports seed material, this directory is expected to hold reusable starter surfaces such as templates or starter policy material.
+- `AGENTS.seed.md`
+- `constitution.seed.md`
+- `templates/spec.template.md`
+- `templates/plan.template.md`
+- `templates/tasks.template.md`
+- `templates/checklist.template.md`
+- `templates/agent-file.template.md`
 
-Until then, use `../canonical/README.md` for the actual public explanation of the layer.
+## Public-safe naming rule
+
+This directory uses public-safe names such as:
+
+- `AGENTS.seed.md`
+- `constitution.seed.md`
+- `*.template.md`
+
+It does not expose raw internal authoring paths such as `.specify/` or `.codex/` as public seed paths.
+
+## How to use these files downstream
+
+1. Copy the relevant seed files into the downstream repository
+2. Rename or place them according to that repository's own structure
+3. Adapt the wording to the downstream project's real governance, toolchain, and directory layout
+4. Keep the downstream repository's local rules above reusable kit defaults
+
+## Not included in this wave
+
+This wave does **not** export:
+
+- method-only payload
+- raw prompt scaffolds
+- helper scripts
+- execution implementation
+
+For explanatory layer meaning, continue to use `../canonical/README.md`.
