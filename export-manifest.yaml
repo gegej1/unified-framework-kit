@@ -1,0 +1,60 @@
+manifest_version: 1
+kind: export-manifest
+role: read-only-public-snapshot
+repo: unified-framework-kit
+release_batch: 1
+snapshot_date: 2026-04-12
+
+authoring_source:
+  repository: codeSPEC
+  path: UnifiedFramework/export-manifest.authoring.yaml
+  status: not-included-in-public-repo
+  rule: semantic changes remain source-first until an explicit cutover is announced
+
+authority:
+  root_repo_governance: AGENTS.md
+  manifest_note:
+    - This file is a read-only snapshot for public distribution.
+    - This file is not the authoring source.
+    - Do not use this file as the place to originate semantic changes.
+
+included_surfaces:
+  root:
+    - README.md
+    - AGENTS.md
+    - CONTRIBUTING.md
+    - LICENSE
+    - .gitignore
+    - export-manifest.yaml
+  docs_architecture:
+    - docs/architecture/overview.md
+    - docs/architecture/future-extension-policy.md
+    - docs/architecture/execution-bridge.md
+  docs_reference:
+    - docs/reference/source-of-truth-and-sync.md
+    - docs/reference/authority-split.md
+    - docs/reference/layer-contracts.md
+  docs_guides:
+    - docs/guides/new-project-bootstrap.md
+    - docs/guides/existing-project-migration.md
+  kits:
+    - kits/spec-kit/README.md
+    - kits/project-memory/longrun/README.md
+    - kits/project-memory/longrun/CHECKLIST.md
+  examples:
+    - examples/README.md
+
+excluded_from_batch_1:
+  - overlays/agent-team/
+  - formal example projects
+  - internal handoff materials
+  - internal audit materials
+  - research assets
+  - mispatch references
+  - .codex/skills implementations
+  - longterm/mcp
+  - longterm/research
+
+notes:
+  - This repository is a public-facing curated mirror, not a second semantic truth source.
+  - Root AGENTS.md remains the only repo-governance authority in this repository.
